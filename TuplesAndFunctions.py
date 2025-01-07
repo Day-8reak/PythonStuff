@@ -23,3 +23,7 @@ def needInputs(name):
 
 # sometimes we also want to have functions that return stuff
 #
+def cubePlus2(num):
+    return (num * num * num) + 2 # return always breaks us out of a function, so anything after won't be run
+
+

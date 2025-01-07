@@ -28,3 +28,19 @@ print(friends)
 #can also remove values:
 friends.remove(7512) # only accepts one value
 print(friends)
+
+
+# to get rid of everything in the list we can use clear
+# to get rid of the last thing in the list we can use pop:
+# friends.clear
+friends.pop()
+
+#index gives the index of the first version of the given string:
+friends.index("Akhilesh")
+
+# we can sort a list, whether that be a list of characters or numbers, but not both
+#friends.sort()
+
+#count gives the number of that element in the list:
+friends.count("Hello")
+print(friends)

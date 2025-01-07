@@ -10,3 +10,6 @@ name = "Day"
 x = "17"
 print("I " + " my life")
 print("Woops, that was a bad introduction, my name is " + name + " and i'm " + x + " years old")
+
+
+print("This is a new statement to be added to the repository pythonStuff")

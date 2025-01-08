@@ -10,9 +10,21 @@ something = open(RandomExternalFile, "r") #a = append, w = write, r = read, r+ =
 # the second part determines what permissions we have with the file
 
 
-
 # we should always check if a file is readable before we check it:
-print(something.readable())
+print(something.readable()) # returns boolean value
+
+
+#read entire file
+print(something.read())
+
+#reads an individual line, from top to bottom
+print(something.readline())
+
+#this will read the second line now
+print(something.readline())
+
+
+#using readlines we can jump to any
 
 
 

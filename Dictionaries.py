@@ -10,5 +10,8 @@ MonthConversions = { # All keys must be unique
     "Mar": "March",
     "Apr": "April"
 }
-#
+# These are the methods we can print something from the dictionary
 print(MonthConversions["Feb"])
+print(MonthConversions.get("Jan", "Not a valid value"))
+# in the case we put in a invalid key, we return none
+# we can pass in a default value when we sue get

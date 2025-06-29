@@ -1,0 +1,32 @@
+Ok so:
+
+    1. Is there a difference between lists and arrays in python?
+
+First of all, there are 2 different types of arrays, one from the main python library and another from the numpy library.
+The main library is more efficient, but the numpy one is more powerful, flexible, and easier to use. Point is you have to import
+from either one or the other library to use arrays. Lists are just created when you do something like 
+
+2. I'm still really confused about the enums. Like how do those create 
+consts. And is that the reason the enum library exists or does it have other purposes
+
+3. Still a little confused with slicing. How can i print an array or string backwards?
+Yes, it's a bit weird tho:
+
+# Reversing a string using slicing
+my_string = "hello"
+reversed_string = my_string[::-1]
+print("Reversed string:", reversed_string)
+
+# Reversing a list using slicing
+my_list = [1, 2, 3, 4, 5]
+reversed_list = my_list[::-1]
+print("Reversed list:", reversed_list)
+
+
+
+4. Can i get the specific letter in a string if it's in a lists
+Yes, you can!
+
+5. I can use operations like union on sets, can i use them on lists?
+Set operations are only usable on sets, so you'll have to convert the lists into 
+sets to turn them into variables
